@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
     private void initGame(){
         answer = createAnswer();
         Log.d("Darren","Answer："+answer);
+        Log.v("Darren","OK")
         clear(null);
     }
 
